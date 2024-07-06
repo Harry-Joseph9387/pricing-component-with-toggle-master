@@ -160,7 +160,7 @@ body{
 .attribution{
     margin-top:20px;
 }
-@media(max-width:900px){
+@media(max-width:950px){
     .wrapper{
         width:700px;
     }
@@ -171,10 +171,21 @@ body{
         padding:50px 15px;
     }
 }
-@media(max-width:600px){
+@media(max-width:700px){
+    .wrapper{
+        width:600px;
+    }
+    .monthly-pricing span,.annually-pricing span{
+        font-size:30px;
+    }
+
+}
+@media(max-width:625px){
+    
     .wrapper{
         grid-template-columns: 1fr;
         gap:30px;
+        width:350px;
     }
     .container{
         padding:0px 20px;
